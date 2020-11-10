@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="13" height="11" viewBox="0 0 13 11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #333;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Share_Icon" data-name="Share Icon" class="cls-1" d="M780.281,2898.85v-2.49a2.257,2.257,0,0,1,2.235-2.28h2.234V2892l3.25,2.7-3.25,2.7v-2.08h-2.234a1.025,1.025,0,0,0-1.016,1.04v2.49h-1.219Zm6.7-1.04V2903H775v-8.92h4.469v1.24h-3.25v6.43h9.547v-3.94h1.218Z" transform="translate(-775 -2892)"/>
+</svg>
