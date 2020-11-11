@@ -1,0 +1,113 @@
+	/* Intro */
+
+.intro {}
+
+.intro_p {
+	padding: 140px 20px;
+	background: url("../images/intro/bg__pages.jpg") 50% 50% / cover no-repeat;
+
+	@media screen and (max-width: 767px) {
+		padding: 100px 10px;
+	}
+}
+
+.intro__column_p {
+	color: #fff;
+}
+
+.intro__title_p {
+	font-size: 65px;
+	line-height: 70px;
+}
+
+.intro__subtitle_p {
+	font-size: 45px;
+	margin: 10px 0 0 0;
+	line-height: 50px;
+
+	@media screen and (max-width: 371px) {
+		margin: 20px 0 0 0;
+	}
+}
+
+
+
+
+
+	/* Image-text */
+
+.image-text {
+	padding: 0 10px;
+}
+
+.mini-container {
+	width: 100%;
+	max-width: 570px;
+	margin: 0 auto;
+}
+
+.top-column {}
+
+.title {}
+
+.subtitle {}
+
+.image-text__body {
+
+}
+
+.image-text__image {
+	max-width: 100%;
+	margin: 25px 0 40px 0;
+}
+
+.image-text__text {
+	font-size: 16px;
+	line-height: 30px;
+
+	width: 100%;
+	max-width: 570px;
+
+}
+
+
+
+
+
+	/* Popular */
+
+.list-songs_p {
+	justify-content: start;
+
+	@media screen and (max-width: 520px) {
+		justify-content: center;
+	}
+}
+
+.list-songs__column_p {
+	flex: 0 0 47%;
+
+	@media screen and (max-width: 520px) {
+		flex: 0 0 100%;
+	}
+
+	&:last-child {
+		margin: 70px 0 0 0;
+
+		@media screen and (max-width: 767px) {
+			margin: 50px 0;
+		}
+	}
+}
+
+.list-songs__column_m {
+	margin: 70px 80px 0 0;
+
+	@media screen and (max-width: 767px) {
+		margin: 50px 30px 0 0;
+	}
+
+	@media screen and (max-width: 520px) {
+		margin: 50px 0 0 0;
+	}
+}

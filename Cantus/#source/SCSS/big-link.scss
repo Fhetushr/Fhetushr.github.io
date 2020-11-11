@@ -1,0 +1,39 @@
+	/* Big-link */
+
+.big-link {
+	border-bottom: 1px solid #d2d2d2;
+	@media screen and (max-width: 767px) {
+		padding: 0 10px;
+	}
+}
+
+.big-link__link {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	color: #282828;
+	font-size: 16px;
+	letter-spacing: 3px;
+	line-height: 55px;
+
+	width: 100%;
+	max-width: 530px;
+	margin: 70px auto;
+
+	border-bottom: 4px solid #999999; 
+
+	@media screen and (max-width: 767px) {
+		margin: 50px auto;
+	}
+
+	&::after {
+		content: "";
+		display: inline-block;
+
+		height: 15px;
+		width: 15px;
+
+		background: url("../images/icon/red-arrow.png") 50% 50% no-repeat;
+	}
+}
