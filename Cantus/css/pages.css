@@ -1,0 +1,12 @@
+/* Intro */
+.intro_p {
+  background: url("../images/intro/bg__pages.jpg") 50% 50%/cover no-repeat; }
+
+.intro__column_p {
+  color: #fff; }
+
+.intro__title_p {
+  font-size: 65px; }
+
+.intro__subtitle_p {
+  font-size: 45px; }
